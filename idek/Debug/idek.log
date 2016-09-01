@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\david shustin\desktop\projects\idek\idek\main.cpp(38): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+c:\users\david shustin\desktop\projects\idek\idek\main.cpp(39): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+  idek.vcxproj -> C:\Users\David Shustin\Desktop\Projects\idek\Debug\idek.exe
+  idek.vcxproj -> C:\Users\David Shustin\Desktop\Projects\idek\Debug\idek.pdb (Partial PDB)
