@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <math.h>
 using namespace std;
 long long int collatz(long long int);
 void updateProgress(long long int, long long int);
@@ -35,7 +36,7 @@ long long int collatz(long long int num) {
 }
 void updateProgress(long long int max, long long int current) {
 	cout << "\r/[[" << flush;
-	long long int lastPercentage = floor(((current - 1) / (double)max) * 100);
+	//long long int lastPercentage = floor(((current - 1) / (double)max) * 100);
 	long long int percentage = floor((current / (double)max) * 100);
 	//if (percentage != lastPercentage) {
 		for (long long int i = 0; i < percentage; ++i)
